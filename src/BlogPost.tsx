@@ -14,10 +14,10 @@ function BlogPost(props: Props) {
    return <Card className="mb-2" 
       // border="dark" /* Try to change this: https://react-bootstrap.github.io/components/cards/#card-styles  */
      //  bg="light" /* Try to change this: https://react-bootstrap.github.io/components/cards/#card-styles*/
-       style={{whiteSpace: "pre-wrap"}} /* Making sure that \n and \t treated as new line and tab in our text. */
+       style={{whiteSpace: "pre-wrap"} } /* Making sure that \n and \t treated as new line and tab in our text. */
    >
     {post.pictureUrl && <Card.Img variant="top" src={post.pictureUrl} />}
-      <Card.Body  className="mb-2" >
+      <Card.Body>
    <Card.Title>{post.title}</Card.Title>
    <Card.Text>{post.text}</Card.Text>
    {

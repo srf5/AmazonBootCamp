@@ -67,7 +67,8 @@
   border-color: rgb(50, 64, 111); /* Custom border color */
   background-color: #ffffff; /* Custom background color */
   color:rgb(50, 64, 111);
-  
+  margin-bottom: 20px;
+  border-radius: 60%;
 }
 
 @keyframes App-logo-spin {
