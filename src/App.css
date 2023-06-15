@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(50, 64, 111);
 }
 
 .App-logo {
@@ -14,18 +15,59 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #c6d8fb;
+  min-height:  20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(50, 64, 111);
+  padding: 20px; 
+  text-align: center;
+  text-transform: uppercase; 
+  
 }
 
+.App-body {
+  background-color: rgba(60, 76, 132, 0.273);;
+  margin: 2vh;
+  min-height: 80vh;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  font-size: calc(10px + 1vmin);
+  color: black;
+  margin-left:380px;
+}
+
+ .App-footer {
+  background-color: #c6d8fb;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: rgb(50, 64, 111);
+}
+.social-icons {
+  margin-right: 10px; 
+  display: flex;
+  gap: 10px;
+  size: 10px;
+}
+ 
 .App-link {
   color: #61dafb;
+}
+.mb-2 {
+  border-color: rgb(50, 64, 111); /* Custom border color */
+  background-color: #ffffff; /* Custom background color */
+  color:rgb(50, 64, 111);
+  
 }
 
 @keyframes App-logo-spin {
